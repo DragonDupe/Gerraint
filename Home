@@ -27,7 +27,7 @@ local Library = {
 		Dark = {
 			Main = Color3.fromRGB(30, 30, 35),
 			Secondary = Color3.fromRGB(50, 50, 55),
-			Tertiary = Color3.fromRGB(70, 130, 180),
+			Tertiary = Color3.fromRGB(255, 51, 221),
 
 			StrongText = Color3.fromHSV(0, 0, 1),		
 			WeakText = Color3.fromHSV(0, 0, 172/255)
@@ -894,8 +894,8 @@ function Library:create(options)
 
 	rawset(mt, "creditsContainer", creditsTab.container)
 
-	creditsTab:credit{Name = "Abstract", Description = "UI Library Developer", Discord = "Abstract#8007", V3rmillion = "AbstractPoo"}
-	creditsTab:credit{Name = "Deity", Description = "UI Library Developer", Discord = "Deity#0228", V3rmillion = "0xDEITY"}
+	creditsTab:credit{Name = "Abstract", Description = "UI Library Developer", Discord = "Abstract#8007", YouTube = "AbstractPoo"}
+	creditsTab:credit{Name = "Deity", Description = "UI Library Developer", Discord = "Deity#0228", YouTube = "0xDEITY"}
 
 	return mt
 end
@@ -2714,7 +2714,7 @@ function Library:credit(options)
 		Name = "Creditor",
 		Description = nil
 	}, options)
-	options.V3rmillion = options.V3rmillion or options.V3rm
+	options.YouTube = options.YouTube or options.YT
 
 	local creditContainer = (self.creditsContainer or self.container):object("Frame", {
 		Theme = {BackgroundColor3 = "Secondary"},
@@ -2802,7 +2802,7 @@ function Library:credit(options)
 			end)
 		end
 
-		if options.V3rmillion then
+		if options.YouTube then
 			local v3rmillionContainer = creditContainer:object("TextButton", {
 				AnchorPoint = Vector2.new(1, 1),
 				Size = UDim2.fromOffset(24, 24),
@@ -2817,7 +2817,7 @@ function Library:credit(options)
 			})
 
 			v3rmillionContainer.MouseButton1Click:connect(function()
-				setclipboard(options.V3rmillion)
+				setclipboard(options.YouTube)
 			end)
 		end
 	end
@@ -3060,7 +3060,7 @@ function Library:prompt(options)
 	options = self:set_defaults({
 		Followup = false,
 		Title = "Prompt",
-		Text = "yo momma dead",
+		Text = "Dragon Dupe",
 		Buttons = {
 			ok = function()
 				return true
