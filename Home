@@ -407,10 +407,10 @@ function Library:create(options)
 	end
 
 	options = self:set_defaults({
-		Name = "Mercury",
+		Name = "Home",
 		Size = UDim2.fromOffset(600, 400),
 		Theme = self.Themes[settings.Theme],
-		Link = "https://github.com/deeeity/mercury-lib"
+		Link = "https://www.youtube.com/dragondupe"
 	}, options)
 
 	if getgenv and getgenv().MercuryUI then
