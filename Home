@@ -13,40 +13,40 @@ local Library = {
 			Secondary = Color3.fromHSV(240/360, 40/255, 63/255),
 			Tertiary = Color3.fromHSV(260/360, 60/255, 148/255),
 
-			StrongText = Color3.fromHSV(0, 0, 1),		
-			WeakText = Color3.fromHSV(0, 0, 172/255)
+			StrongText = Color3.fromHSV(255, 255, 255),		
+			WeakText = Color3.fromHSV(0, 0, 0)
 		},
 		Serika = {
 			Main = Color3.fromRGB(50, 52, 55),
 			Secondary = Color3.fromRGB(80, 82, 85),
 			Tertiary = Color3.fromRGB(226, 183, 20),
 
-			StrongText = Color3.fromHSV(0, 0, 1),		
-			WeakText = Color3.fromHSV(0, 0, 172/255)
+			StrongText = Color3.fromHSV(255, 255, 255),		
+			WeakText = Color3.fromHSV(0, 0, 0)
 		},
 		Dark = {
 			Main = Color3.fromRGB(255, 255, 255),
 			Secondary = Color3.fromRGB(255, 51, 221),
 			Tertiary = Color3.fromRGB(255, 255, 255),
 
-			StrongText = Color3.fromHSV(0, 0, 1),		
-			WeakText = Color3.fromHSV(0, 0, 172/255)
+			StrongText = Color3.fromHSV(255, 255, 255),		
+			WeakText = Color3.fromHSV(0, 0, 0)
 		},
 		Rust = {
 			Main = Color3.fromRGB(37, 35, 33),
 			Secondary = Color3.fromRGB(65, 63, 63),
 			Tertiary = Color3.fromRGB(237, 94, 38),
 
-			StrongText = Color3.fromHSV(0, 0, 1),		
-			WeakText = Color3.fromHSV(0, 0, 172/255)
+			StrongText = Color3.fromHSV(255, 255, 255),		
+			WeakText = Color3.fromHSV(0, 0, 0)
 		},
 		Aqua = {
 			Main = Color3.fromRGB(19, 21, 21),
 			Secondary = Color3.fromRGB(65, 63, 63),
 			Tertiary = Color3.fromRGB(51, 153, 137),
 
-			StrongText = Color3.fromHSV(0, 0, 1),        
-			WeakText = Color3.fromHSV(0, 0, 172/255)
+			StrongText = Color3.fromHSV(255, 255, 255),        
+			WeakText = Color3.fromHSV(0, 0, 0)
 		},
 		Vaporwave = {},
 		OperaGX = {},
