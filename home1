@@ -29,8 +29,8 @@ local Library = {
 			Secondary = Color3.fromRGB(102, 255, 107), --[hijau]
 			Tertiary = Color3.fromRGB(255, 255, 255), --[kuning jadi putih ]
 
-			StrongText = Color3.fromHSV(0, 0, 1),		
-			WeakText = Color3.fromHSV(0, 0, 172/255)
+			StrongText = Color3.fromHSV(304,100,96),		
+			WeakText = Color3.fromHSV(303,62,100)
 		},
 		Rust = {
 			Main = Color3.fromRGB(37, 35, 33),
