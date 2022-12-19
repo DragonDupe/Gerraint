@@ -2810,7 +2810,7 @@ function Library:credit(options)
 				Theme = {BackgroundColor3 = {"Main", 10}}
 			}):round(5):tooltip("copy v3rm")
 			local v3rmillion = v3rmillionContainer:object("ImageLabel", {
-				Image = "http://www.roblox.com/asset/?id=11860036192",
+				Image = "http://www.roblox.com/asset/?id=11860036175",
 				Size = UDim2.new(1, -4, 1, -4),
 				Centered = true,
 				BackgroundTransparency = 1
